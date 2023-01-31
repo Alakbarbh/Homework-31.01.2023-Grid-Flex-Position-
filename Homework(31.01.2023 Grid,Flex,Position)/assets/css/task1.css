@@ -1,0 +1,131 @@
+body{
+    background-color: #B8B6B6;
+}
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.border{
+    height: 460px;
+    width: 350px;
+    background-color: #42515A;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+    top: 95px;
+    text-align: center;
+}
+
+.borders{
+
+    justify-content: center;
+    display: flex;
+}
+
+.pink1{
+
+    justify-content: center;
+    padding-top: 99px;
+
+}
+
+.pink{
+    
+    width: 350px;
+    background-color: #C74385;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: -4px;
+
+}
+
+.icon{
+  
+  position: absolute;
+  color: black;
+  border: 10px solid #C74385;
+  border-radius: 50%;
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  z-index: 1;
+  margin-top: 20px;
+}
+
+.user{
+    font-size: 100px ;
+    position: relative;
+    left: 23px;
+    top: 13px;
+
+}
+
+.border .name {
+    color: #C74385;
+    margin-top: 145px;
+    
+}
+
+.pink h3{
+    color: white;
+    margin-top: 23px;
+    
+}
+
+.yourname{
+    color: #B6B8BC;
+    margin-top: 20px;
+    
+}
+
+.developer{
+    color: white;
+    margin-top: 20px;
+    
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+ ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 63px;
+}
+
+ ul li{
+    width: 50px;
+    height: 50px;
+    background-color: #C74385;
+    border-radius: 50%;
+    margin-left: 10px;
+    padding: 10px;
+
+}
+ ul li a i{
+    font-size: 33px;
+}
+
+
+
+
+
+
+
+
+
+
+
